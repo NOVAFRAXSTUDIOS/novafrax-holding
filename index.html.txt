@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVAFRAX STUDIOS | A Shift in Perspective</title>
+    <meta name="description" content="Independent Cinematic Studio. Stories beyond a single world.">
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="NOVAFRAX STUDIOS">
+    <meta property="og:description" content="A Shift in Perspective.">
+    <meta property="og:url" content="https://novafraxstudios.com">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #070709;
+            color: #E5E7EB;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            background-image: radial-gradient(circle at 50% 45%, rgba(217, 155, 60, 0.05) 0%, rgba(7, 7, 9, 0) 70%);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            max-width: 650px;
+            width: 100%;
+        }
+
+        .logo-wrap {
+            margin-bottom: 2rem;
+            width: 140px;
+            height: 140px;
+        }
+
+        .logo-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 0 25px rgba(217, 155, 60, 0.15));
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            letter-spacing: 0.35em;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            text-indent: 0.35em;
+        }
+
+        .tagline {
+            font-size: 0.85rem;
+            letter-spacing: 0.25em;
+            font-weight: 300;
+            color: #9CA3AF;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+            text-indent: 0.25em;
+        }
+
+        .status {
+            display: inline-block;
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #D99B3C;
+            border: 1px solid rgba(217, 155, 60, 0.3);
+            padding: 0.5rem 1.25rem;
+            border-radius: 9999px;
+            margin-bottom: 3rem;
+            background: rgba(217, 155, 60, 0.03);
+            text-indent: 0.3em;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social-links a {
+            color: #6B7280;
+            text-decoration: none;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+
+        .social-links a:hover {
+            color: #FFFFFF;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            color: #374151;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div></div>
+
+    <main class="container">
+        <div class="logo-wrap">
+            <!-- Place your master square logo image as logo.png in the same directory -->
+            <img src="logo.png" alt="NOVAFRAX Logo">
+        </div>
+
+        <h1>NOVAFRAX</h1>
+        <div class="tagline">A Shift in Perspective</div>
+
+        <div class="status">Coming Soon</div>
+
+        <nav class="social-links">
+            <a href="https://youtube.com/@NovafraxStudios" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://instagram.com/novafraxstudios" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://tiktok.com/@novafraxstudios" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </nav>
+    </main>
+
+    <footer>
+        &copy; 2026 NOVAFRAX STUDIOS. All Rights Reserved.
+    </footer>
+
+</body>
+</html>

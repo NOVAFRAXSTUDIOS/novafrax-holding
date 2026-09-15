@@ -16,12 +16,17 @@
       height: 100%;
       background-color: #000;
       overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
     .hero-container {
       position: relative;
       width: 100vw;
       height: 100vh;
+      max-width: 177.78vh; /* يحافظ على نسبة 16:9 الدقيقة مع ارتفاع الشاشة */
+      max-height: 56.25vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -32,25 +37,30 @@
       object-fit: contain;
       user-select: none;
     }
-    /* منطقة الأزرار التفاعلية لمطابقة مكان السوشيال ميديا بالصورة */
+
+    /* منطقة الروابط الشفافة المضبوطة بالميليمتر */
     .social-clickable-zone {
       position: absolute;
-      bottom: 12%;
+      bottom: 14.2%; /* تم رفعها لتغطي الأيقونة والكلمة تماماً */
+      left: 50%;
+      transform: translateX(-50%);
       display: flex;
-      gap: 30px;
+      gap: 4.6%; /* ضبط التباعد ليتطابق مع أعمدة التصميم الثلاثة */
+      width: 28%;
+      height: 6.8%;
       z-index: 10;
     }
     .social-btn {
-      width: 70px;
-      height: 60px;
+      flex: 1;
+      height: 100%;
       cursor: pointer;
       opacity: 0;
-      transition: opacity 0.3s;
+      transition: opacity 0.25s ease;
+      border-radius: 6px;
     }
     .social-btn:hover {
-      opacity: 0.15;
+      opacity: 0.12;
       background: #fff;
-      border-radius: 8px;
     }
   </style>
 </head>
@@ -59,11 +69,10 @@
   <div class="hero-container">
     <img src="hero.png" alt="Novafrax Studios" class="hero-image">
     
-    <!-- مناطق النقر للسوشيال ميديا -->
     <div class="social-clickable-zone">
-      <a href="https://www.youtube.com/@NovafraxStudios" target="_blank" class="social-btn" title="YouTube"></a>
-      <a href="https://www.instagram.com/novafraxstudios/" target="_blank" class="social-btn" title="Instagram"></a>
-      <a href="https://www.tiktok.com/@novafraxstudios" target="_blank" class="social-btn" title="TikTok"></a>
+      <a href="https://youtube.com/@rajulbiummah" target="_blank" class="social-btn" title="YouTube"></a>
+      <a href="https://instagram.com" target="_blank" class="social-btn" title="Instagram"></a>
+      <a href="https://tiktok.com" target="_blank" class="social-btn" title="TikTok"></a>
     </div>
   </div>
 

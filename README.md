@@ -1,1 +1,0 @@
-# novafrax-holding
